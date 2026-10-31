@@ -2,22 +2,19 @@
 <Configuration status="INFO">
 
     <Appenders>
-        <Console>
-
+        <Console name="LoggingToConsole" target="SYSTEM_OUT">
             <PatternLayout>
                 <Pattern>
-                    %d
+                    %d - %c - [%M] - (%p) - %m - %n
                 </Pattern>
             </PatternLayout>
-
         </Console>
-        <!--        <FILE> </FILE>-->
-        <!--        <JDBC></JDBC>-->
-
     </Appenders>
 
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="LoggingToConsole"/>
+        </Root>
+    </Loggers>
 
-    <Logger>
-
-    </Logger>
 </Configuration>
