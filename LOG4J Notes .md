@@ -1,4 +1,4 @@
-# Log4j Configuration Using Properties File
+~~# Log4j Configuration Using Properties File
 
 ## 1. Loading the Properties File
 
@@ -136,7 +136,7 @@ log4j.appender.R.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %p %c %M %t %r
 | `PatternLayout`            | Provides a customizable log format  |
 | `RollingFileAppender`      | Rolls over logs based on file size  |
 | `DailyRollingFileAppender` | Rolls over logs based on time       |
-| Multiple appenders         | Sends logs to multiple destinations |
+| `Multiple appenders`       | Sends logs to multiple destinations |
 
 **Important:** These examples use Log4j 1.x syntax. Log4j 1.x is end-of-life; your current project uses Log4j2, which
-has different configuration syntax.
+has different configuration syntax.~~
