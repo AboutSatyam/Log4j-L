@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring-Stack.iml" filepath="$PROJECT_DIR$/Spring-Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Log4j-L.iml" filepath="$PROJECT_DIR$/Log4j-L.iml" />
     </modules>
   </component>
 </project>
