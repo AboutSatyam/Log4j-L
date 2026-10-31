@@ -1,0 +1,5 @@
+2026-10-31 16:05:08,905 - satyam.Log4jTest - [process] - (DEBUG) - FROM THE DEBUG METHOD - 
+2026-10-31 16:05:08,910 - satyam.Log4jTest - [process] - (INFO) - FROM THE INFO METHOD - 
+2026-10-31 16:05:08,911 - satyam.Log4jTest - [process] - (WARN) - FROM THE WARN METHOD - 
+2026-10-31 16:05:08,913 - satyam.Log4jTest - [process] - (ERROR) - FROM THE ERROR METHOD - 
+2026-10-31 16:05:08,913 - satyam.Log4jTest - [process] - (FATAL) - FROM THE FATAL METHOD - 

@@ -10,14 +10,21 @@
             </PatternLayout>
         </Console>
 
-        <File name ="LoggingToFile">
+        <File name="LoggingToFile" fileName="logs/myLogging.Log">
+            <PatternLayout>
+                <Pattern>
+                    %d - %c - [%M] - (%p) - %m - %n
+                </Pattern>
+            </PatternLayout>
 
         </File>
     </Appenders>
 
     <Loggers>
-        <Root level="warn">
+        <Root level="debug">
             <AppenderRef ref="LoggingToConsole"/>
+            <AppenderRef ref="LoggingToFile"/>
+
         </Root>
     </Loggers>
 
