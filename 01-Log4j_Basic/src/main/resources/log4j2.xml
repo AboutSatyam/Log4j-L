@@ -9,10 +9,14 @@
                 </Pattern>
             </PatternLayout>
         </Console>
+
+        <File name ="LoggingToFile">
+
+        </File>
     </Appenders>
 
     <Loggers>
-        <Root level="trace">
+        <Root level="warn">
             <AppenderRef ref="LoggingToConsole"/>
         </Root>
     </Loggers>
